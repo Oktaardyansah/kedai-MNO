@@ -1,5 +1,3 @@
-// Membuat Data Product
-
 document.addEventListener('alpine:init', () => {
     Alpine.data('products', () => ({
         items: [
@@ -67,7 +65,11 @@ document.addEventListener('alpine:init', () => {
     });
 });
 
+// Form Validation
+// const checkoutBtn = document.querySelector('.checkout-btn');
+// checkoutBtn.disabled = true;
 
+// const form = document.querySelector('#checkoutForm');
 
 // Konversi currnecy
 
